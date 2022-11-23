@@ -54,6 +54,7 @@ module.exports = {
       remotes: {
         discovery: "http://localhost:3001/remoteEntry.js",
         cart: "http://localhost:3002/assets/remoteEntry.js",
+        report: "http://localhost:3004/assets/remoteEntry.js",
       },
       exposes: {},
       shared: {

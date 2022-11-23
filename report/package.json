@@ -1,0 +1,20 @@
+{
+  "name": "report",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite build & serve -l 3004 --cors dist"
+  },
+  "dependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.1.11",
+    "serve": "^14.1.2",
+    "vite": "^3.2.4",
+    "vite-plugin-vue2": "^2.0.2",
+    "vue-template-compiler": "2.7.14"
+  }
+}

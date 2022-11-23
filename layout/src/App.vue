@@ -2,12 +2,14 @@
 import DiscoveryTiles from "discovery/DiscoveryTiles";
 import Cart from "cart/Cart";
 import placeVue3Component from "discovery/placeVue3Component";
+import Sales from "report/Sales";
 
 export default {
   name: "App",
   components: {
     DiscoveryTiles,
-    Cart
+    Cart,
+    Sales
   },
   mounted() {
     placeVue3Component(DiscoveryTiles, this.$refs.discovery);
@@ -28,5 +30,8 @@ export default {
 
     <h2 class="mt-2">Cart</h2>
     <div ref="cart"></div>
+    
+    <h2 class="mt-2">Sales</h2>
+    <Sales />
   </div>
 </template>
