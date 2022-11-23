@@ -9,3 +9,6 @@ All of these should in theory be capable of being a host - but not all may have 
 The main purpose of this repository is to demonstrate the possibility of running remote Vue3 modules, bundled using either Vite or Webpack, inside of a Vue2 host application. 
 
 In short: magic 🪄
+
+Webpack variants were scaffolded using [create-mf-app](https://github.com/jherr/create-mf-app) by Jack Herrington. 
+Others were scaffolded using the Vite CLI.
