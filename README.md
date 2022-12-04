@@ -5,6 +5,7 @@ This is a simple demonstration of combinating the following using module federat
 - **Cart**: Vue3 + Vite (remote)
 - **Discovery**: Vue3 + Webpack (host + remote)
 - **Report**: Vue2 + Vite (host + remote)
+- **Shell**: Vue 2 + Vue CLI/Webpack (host)
 
 All of these should in theory be capable of being a host - but not all may have been tested.
 The main purpose of this repository is to demonstrate the possibility of running remote Vue3 modules, bundled using either Vite or Webpack, inside of a Vue2 host application. 
